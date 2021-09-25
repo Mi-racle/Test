@@ -30,7 +30,7 @@ class Calculator {
 
     public void cal(int level, int sample) {
         int sum_times = 0;
-        double sum_cost = 0;
+        double sum_cost = 0.1;
         int min_time = -1;
         int max_time = -1;
         for (int i = 0; i < sample; i++) {
